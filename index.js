@@ -6,8 +6,7 @@ const router = require("./Routes/index")
 //For POST requests
 app.use(express.json({extended: false}));
 
-    ////Rutes////
-//GET todos
+//Route
 app.use("/", router);
 
     ////Server listening//

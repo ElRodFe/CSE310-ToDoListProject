@@ -1,24 +1,30 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This project is a simple **To-Do List API** built with Node.js and Express. It demonstrates key backend development concepts such as routing, middleware, recursion, exception handling, and integration with third-party libraries.
 
-{Provide a description of your software}
-
-{Describe your purpose for creating this software.}
-
-{Provide a link to your YouTube demonstration. It should be a one minute demo of the software running and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+The goal of this project is to strengthen my understanding of backend software engineering principles, practice writing modular and maintainable code, and demonstrate my ability to build RESTful APIs.
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+- **Editor:** Visual Studio Code
+- **Runtime:** Node.js
+- **Package Manager:** npm
+- **Frameworks/Libraries:**
+  - **Express** – Web framework for building the API
+  - **UUID** – For generating unique identifiers for to-do's
+  - **Nodemon** – For automatic server restarts during development
 
-{Describe the programming language that you used}
+This project was developed entirely in **JavaScript (Node.js)** using **CommonJS modules** for modularity.
+
+The app is run in a Node.js environment and demonstrates:
+
+- ES6+ array methods (`filter`)
+- Recursion for counting todos
+- RESTful API structure with Express
+- Basic error handling with `try/catch`
+- Clean project organization using separate route, utility, and data files
 
 # Useful Websites/Videos
 
 - [API RESTfull in 100 seconds tutorial](https://www.youtube.com/watch?v=-MTSQjw5DrM)
 - [Express Routing Guide](https://expressjs.com/en/guide/routing.html)
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
