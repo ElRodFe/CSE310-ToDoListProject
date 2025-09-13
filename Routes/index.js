@@ -13,6 +13,7 @@ router.get("/", (req, res) =>{
 
 //GET completed todos
 router.get("/completed", (req, res) => {
+    //Filter todos and send back only completed ones
   const completedTodos = todos.filter(todo => todo.completed);
   res.status(200).json(completedTodos);
 });
@@ -22,6 +23,7 @@ router.post("/", (req, res) => {
 
     try {
         if (!req.body.message) {
+            //Throw error if "message" is empty
             throw new Error("Message is required!")
         }
 
