@@ -1,7 +1,7 @@
 const express = require("express");
 const router = express.Router();
 const { v4: uuidv4 } = require("uuid");
-const todos = require("..Data/todos")
+const todos = require("../Data/todos")
 const countTodos = require("../Utils/utils")
 
     ////ROUTES////
